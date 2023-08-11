@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+}
+.burger{
+    content: url('../icons/burger.svg');
+    height: 2rem;
+    width: 2rem;
+}
+
+.x-icon{
+    content: url('../icons/x-icon.svg');
+}
+
+.my-img{
+    content: url('../images/my-img.jpg');
+    height: 15rem;
+    width: 15rem;
+}
+
+.facebook-icon{
+    content: url('../icons/facebook.svg');
+    height: 2rem;
+    width: 2rem;
+}
+
+.insta-icon{
+    content: url('../icons/insta.svg');
+    height: 2rem;
+    width: 2rem;
+}
+
+.gmail-icon{
+    content: url('../icons/gmail.svg');
+    height: 2rem;
+    width: 2rem;
+}
+
+.github-icon{
+    content: url('../icons/github.svg');
+    height: 2rem;
+    width: 2rem;
+}
+
+.bg-img{
+    background-image: url('../images/bg-portfolio.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-img2{
+    content: url('../images/bg-img2.jpg');
+}
+
+.carousel{
+    scroll-snap-type: x mandatory;
+    overflow: auto;
+    display: flex;
+}
+
+.carousel .item{
+    scroll-snap-align: start;
+}
+.html-icon{
+    content: url('../icons/html.svg');
+}
+
+.css-icon{
+    content: url('../icons/css.svg');
+}
+
+.nuxt-icon{
+    content: url('../icons/nuxt1.svg');
+}
+
+.php-icon{
+    content: url('../icons/php.svg');
+}
+
+.tailwind-icon{
+    content: url('../icons/tailwind1.svg');
+}
+
+.vue-icon{
+    content: url('../icons/vue.svg');
+}
