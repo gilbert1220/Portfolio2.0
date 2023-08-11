@@ -11,7 +11,7 @@
 <template>
     <div class="w-full h-[4rem] bg-gray-900 bg-opacity-30 fixed">
         <div class="hidden md:block text-white lg:flex justify-between items-center h-full mx-[5rem]">
-                <NuxtLink to="#home"><div>My Logo</div></NuxtLink>
+                <NuxtLink to="/"><div>My Logo</div></NuxtLink>
                 <div class="flex flex-row space-x-[7rem]">
                     <NuxtLink to="#about"><div>About</div></NuxtLink>
                     <NuxtLink to="#skills"><div>Skills</div></NuxtLink>
